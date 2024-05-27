@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+
+.result {
+    background-color: #5c3dfa;
+    border-radius: 0 0 12px 12px ;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.sphere {
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    border-radius: 50%;
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+    margin: auto auto;
+}
+
+.sphere h1 {
+ margin: 19px 0 3px 0;
+ font-size: 5rem;
+}
+
+.sphere span {
+    color: #b3b3b37a;
+}
+.result-header , .result-stat {
+    color: #ffffff80;
+}
+
+.result-grade {
+    font-size: 2em;
+}
+
+.result-stat {
+    width: 230px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.result * {
+    margin-top: 11px;
+    margin-bottom: 22px;
+}
+
+.summary {
+    margin: 20px 0 20px 30px;
+}
+.row {
+    border-radius: 9px;
+    padding: 1em   ;
+    position: relative;
+    margin: 20px 30px;
+}
+
+.percentage {
+    position: absolute;
+    right: 10px;
+    text-align: end;
+}
+
+.row span {
+    position: absolute;
+    left: 40px;
+}
+
+.row-1 {
+    background-color: hsla(0, 100%, 67%, 0.192);
+}
+
+.red {
+    color: hsl(0, 100%, 67%);
+}
+
+.orange {
+    color: hsl(39, 100%, 56%);
+}
+
+.row-2 {
+    background-color: hsla(39, 100%, 56%, 0.192);
+}
+
+.green {
+    color: hsl(166, 100%, 37%);
+}
+
+.row-3 {
+    background-color: hsla(166, 100%, 37%, 0.192);
+}
+
+.blue {
+   color: hsl(234, 85%, 45%);
+}
+
+.row-4 {
+    background-color: hsla(234, 85%, 45%, 0.192);
+}
+
+.button {
+    background-color: #303b59;
+    color: white;
+    text-align: center;
+    margin: 7px 17px;
+    padding: 1em 0;
+    border-radius: 50px;
+}
+
+@media only screen and (min-width: 900px)
+{
+    body {
+    }
+
+    .pc-cont {
+        display: flex;
+        justify-content: center;
+        margin: 5% auto;
+        background-color: white;
+    }
+
+    .summary-pc{
+width: 300px;
+box-shadow: rgba(0, 0, 0, 0.4) 5px 5px 5px;
+    }
+}
